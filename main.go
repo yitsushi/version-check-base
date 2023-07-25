@@ -7,5 +7,5 @@ type MyStuff struct {
 }
 
 func (m *MyStuff) String() string {
-	return fmt.Sprintf("v1: %s\n", m.Field)
+	return fmt.Sprintf("v2: %s\n", m.Field)
 }
